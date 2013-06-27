@@ -3,7 +3,7 @@
 namespace sunsoft;
 
 /**
- * @version 1.0
+ * @version 1.0.1
  * @todo More/better documentation.
  */
 class UPC_A_Barcode {
