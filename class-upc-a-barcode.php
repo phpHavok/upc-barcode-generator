@@ -69,7 +69,7 @@ class UPC_A_Barcode {
 		$upc = (string) $upc;
 		
 		if ( 1 !== preg_match( '/\d{12}/', $upc ) )
-			throw new Exception( 'Invalid UPC given: ' . $upc );
+			throw new \Exception( 'Invalid UPC given: ' . $upc );
 		
 		$this->upc = array_map( 'intval', str_split( $upc ) );
 	}
